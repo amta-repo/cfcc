@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Facebook, Linkedin } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import logoImage from '@/assets/logo-cfcc.jpg';
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -20,9 +21,11 @@ const Footer = () => {
           {/* About Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="h-10 w-10 rounded-lg bg-gradient-hero flex items-center justify-center text-white font-bold text-xs">
-                CFCC
-              </div>
+              <img 
+                src={logoImage} 
+                alt="CFCC Logo" 
+                className="h-14 w-auto object-contain"
+              />
               <div>
                 <div className="font-bold text-foreground">CFCC</div>
                 <div className="text-xs text-muted-foreground">{t('footer.description')}</div>
