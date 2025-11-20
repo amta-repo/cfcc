@@ -22,7 +22,7 @@ const ContactPage = () => {
     
     // Create WhatsApp message
     const message = `Bonjour,\n\nNom: ${formData.name}\nEmail: ${formData.email}\nTéléphone: ${formData.phone}\nType de projet: ${formData.project}\n\nMessage:\n${formData.message}`;
-    const whatsappUrl = `https://wa.me/+22995954663?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+22996539285?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, '_blank');
     toast.success('Redirection vers WhatsApp...');
@@ -35,19 +35,19 @@ const ContactPage = () => {
     {
       icon: MapPin,
       title: t('contact.address'),
-      content: 'Kindonou, Cotonou, Benin',
+      content: 'Lot 607 Ms Par C Ms Migan Qt, Cotonou',
     },
     {
       icon: Phone,
       title: 'Téléphone',
-      content: '+229 01 95 95 46 63',
-      link: 'tel:+2290195954663',
+      content: '+229 01 96 53 92 85',
+      link: 'tel:+2290196539285',
     },
     {
       icon: Mail,
       title: 'Email',
-      content: 'contact@nocometab.com',
-      link: 'mailto:contact@nocometab.com',
+      content: 'contact@cfcc.com',
+      link: 'mailto:contact@cfcc.com',
     },
     {
       icon: Clock,
@@ -185,14 +185,14 @@ const ContactPage = () => {
             <Card className="shadow-elevated animate-scale-in overflow-hidden">
               <CardContent className="p-0">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7254773896654!2d2.3379877!3d6.4019294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102357fb7c4804bf%3A0xcf7e390728d7509e!2sNOCOMETAB%20BTP!5e0!3m2!1sen!2s!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7254773896654!2d2.4094791!3d6.3638112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102355092d67d595%3A0x80b71f73644c5de2!2sCentre%20De%20Formation%20De%20Conseils%20Et%20De%20Construction%20En%20Btp!5e0!3m2!1sen!2s!4v1234567890"
                   width="100%"
                   height="400"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="NOCOMETAB BTP Location"
+                  title="CFCC Location"
                   className="w-full"
                 />
               </CardContent>

@@ -17,8 +17,8 @@ import {
   Mail,
   Clock,
 } from 'lucide-react';
-import heroImage from '@/assets/hero-surveying.jpg';
-import servicesImage from '@/assets/services-aerial.jpg';
+import heroImage from '@/assets/hero-cfcc-training.jpg';
+import servicesImage from '@/assets/services-construction.jpg';
 
 const HomePage = () => {
   const { t } = useLanguage();
@@ -87,7 +87,7 @@ const HomePage = () => {
         />
         <div className="container relative z-10 mx-auto px-4 text-center text-white animate-fade-in-up">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            NOCOMETAB BTP
+            CFCC
           </h1>
           <p className="text-xl md:text-3xl mb-4 font-semibold">
             {t('hero.title')}
@@ -105,7 +105,7 @@ const HomePage = () => {
               variant="outline"
               size="lg"
               className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm"
-              onClick={() => window.open('https://wa.me/+22995954663', '_blank')}
+              onClick={() => window.open('https://wa.me/+22996539285', '_blank')}
             >
               <Phone className="h-5 w-5 mr-2" />
               {t('hero.cta.chat')}

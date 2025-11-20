@@ -20,11 +20,11 @@ const Footer = () => {
           {/* About Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="h-10 w-10 rounded-lg bg-gradient-hero flex items-center justify-center text-white font-bold">
-                NB
+              <div className="h-10 w-10 rounded-lg bg-gradient-hero flex items-center justify-center text-white font-bold text-xs">
+                CFCC
               </div>
               <div>
-                <div className="font-bold text-foreground">NOCOMETAB BTP</div>
+                <div className="font-bold text-foreground">CFCC</div>
                 <div className="text-xs text-muted-foreground">{t('footer.description')}</div>
               </div>
             </div>
@@ -56,18 +56,18 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" />
-                <span>Kindonou, Cotonou, Benin</span>
+                <span>Lot 607 Ms Par C Ms Migan Qt, Cotonou</span>
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
-                <a href="tel:+2290195954663" className="hover:text-primary transition-colors">
-                  +229 01 95 95 46 63
+                <a href="tel:+2290196539285" className="hover:text-primary transition-colors">
+                  +229 01 96 53 92 85
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
-                <a href="mailto:contact@nocometab.com" className="hover:text-primary transition-colors">
-                  contact@nocometab.com
+                <a href="mailto:contact@cfcc.com" className="hover:text-primary transition-colors">
+                  contact@cfcc.com
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} NOCOMETAB BTP. {t('footer.rights')}.</p>
+          <p>© {new Date().getFullYear()} CFCC. {t('footer.rights')}.</p>
         </div>
       </div>
     </footer>
